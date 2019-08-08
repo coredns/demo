@@ -2,7 +2,7 @@
 
 ## Name
 
-*demo* - returns `1.1.1.1` for `172.0.0.0/8` or `127.0.0.0/8` and `8.8.8.8`
+*demo* - returns `1.1.1.1` for `172.0.0.0/8` or `127.0.0.0/8` and `8.8.8.8` otherwise
 
 ## Description
 
