@@ -18,7 +18,7 @@ Note: In Barcelona during the demo we ran into a glitch. The issue was that with
 coredns code, in order to add a new plugin, an additional step of `make gen` is needed. Therefore,
 to build the coredns with demo plugin the following should be used:
 ```
-docker run -i -t --rm -v $PWD:/v -w /v golang:1.12 sh -c 'make gen && make'
+docker run -it --rm -v $PWD:/v -w /v golang:1.12 sh -c 'make gen && make'
 ```
 
 ## Syntax
