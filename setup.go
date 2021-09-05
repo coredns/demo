@@ -6,9 +6,7 @@ import (
 	"github.com/coredns/coredns/plugin"
 )
 
-func init() {
-	plugin.RegisterPlugin("demo", setup)
-}
+func init() { plugin.RegisterPlugin("demo", setup) }
 
 func setup(c *caddy.Controller) error {
 	c.Next() // 'demo'
