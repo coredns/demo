@@ -7,10 +7,7 @@ import (
 )
 
 func init() {
-	caddy.RegisterPlugin("demo", caddy.Plugin{
-		ServerType: "dns",
-		Action:     setup,
-	})
+	plugin.RegisterPlugin("demo", setup)
 }
 
 func setup(c *caddy.Controller) error {

@@ -1,4 +1,4 @@
-// Package demo implements a plugin
+// Package demo implements a plugin.
 package demo
 
 import (
